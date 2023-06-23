@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.offcanvas-header,
+.offcanvas-body {
+  background-color: black !important;
+}
+
+.img1, .img2, .img3, .img4 {
+  max-width: 100%;
+  height: auto;
+}
+
+.syllable {
+  display: none;
+}
+
+.vector {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /*.images {
+    border: 10px solid red;
+  }*/
+
+  .img1, .img4 {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .container > .images > figure > .img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container > .images > figure > .img4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img3 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img2 {
+    max-width: 76%;
+    height: auto;
+  }
+
+  .images-center {
+    display: flex;
+  }
+
+  .image-center img {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .text-ilyas {
+    margin-right: 5rem;
+  }
+
+  .team-text {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+  }
+
+  .syllable {
+    margin-top: -12rem;
+    color: #363636;
+    font-size: 40rem;
+    display: block;
+  }
+
+  .team-text {
+    margin-right: 9rem;  
+  }
+
+  .vector {
+    border: 2px solid #fff;
+    width: 8.2rem;
+    margin-left: 6rem;
+    display: block;
+  }
+
+  .team-text {
+    transition: font-size 0.3s ease !important;
+  }
+}
+
+@media (min-width: 1250px) {
+  .vector {
+    margin-left: 8rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .vector {
+    margin-left: 9rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .vector {
+    margin-left: 10rem;
+  }
+}
